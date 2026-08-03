@@ -7,6 +7,9 @@ import About from './pages/About';
 import Gallery from './pages/Gallery';
 import Inspiration from './pages/Inspiration';
 import Contact from './pages/Contact';
+import Admin from './pages/Admin';
+import Login from './pages/Login';
+import { ProductProvider } from './context/ProductContext';
 
 // Scroll to top on route change
 const ScrollToTop = () => {
@@ -19,20 +22,24 @@ const ScrollToTop = () => {
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <Navbar />
-      <main style={{ minHeight: '100vh' }}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/inspiration" element={<Inspiration />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
-      <Footer />
-    </Router>
+    <ProductProvider>
+      <Router>
+        <ScrollToTop />
+        <Navbar />
+        <main style={{ minHeight: '100vh' }}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/inspiration" element={<Inspiration />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/admin" element={<Admin />} />
+            <Route path="/login" element={<Login />} />
+          </Routes>
+        </main>
+        <Footer />
+      </Router>
+    </ProductProvider>
   );
 }
 
