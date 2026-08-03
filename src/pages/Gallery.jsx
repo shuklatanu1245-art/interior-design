@@ -11,6 +11,10 @@ const Gallery = () => {
     { id: 2, name: 'Emerald Crown Armchair', category: 'Living Room', price: '₹35,000', img: '/chair.jpg' },
     { id: 3, name: 'Majestic King Bed', category: 'Bedroom', price: '₹95,000', img: '/bedroom.jpg' },
     { id: 4, name: 'Gold Accent Coffee Table', category: 'Living Room', price: '₹25,000', img: '/hero.jpg' },
+    { id: 5, name: 'Oak Wood Dining Table', category: 'Dining', price: '₹65,000', img: '/dining_table.jpg' },
+    { id: 6, name: 'Modern Minimalist Chandelier', category: 'Living Room', price: '₹18,000', img: '/chandelier.jpg' },
+    { id: 7, name: 'Luxury Tufted Bench', category: 'Bedroom', price: '₹12,000', img: '/tufted_bench.jpg' },
+    { id: 8, name: 'Velvet Dining Chair', category: 'Dining', price: '₹8,500', img: '/dining_chair.jpg' },
   ];
 
   const filteredProducts = filter === 'All' 
