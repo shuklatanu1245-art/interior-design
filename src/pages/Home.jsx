@@ -59,14 +59,14 @@ const Home = () => {
               <div className="product-img" style={{ backgroundImage: `url('/sofa.jpg')` }}></div>
               <div className="product-info">
                 <h3>Royal Navy Velvet Sofa</h3>
-                <p className="text-gold">$4,500</p>
+                <p className="text-gold">$850</p>
               </div>
             </div>
             <div className="glass-card product-card">
               <div className="product-img" style={{ backgroundImage: `url('/chair.jpg')` }}></div>
               <div className="product-info">
                 <h3>Emerald Crown Armchair</h3>
-                <p className="text-gold">$2,200</p>
+                <p className="text-gold">$420</p>
               </div>
             </div>
           </div>
