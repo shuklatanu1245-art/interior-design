@@ -7,10 +7,10 @@ const Gallery = () => {
   const categories = ['All', 'Living Room', 'Bedroom', 'Dining'];
   
   const products = [
-    { id: 1, name: 'Royal Navy Velvet Sofa', category: 'Living Room', price: '$850', img: '/sofa.jpg' },
-    { id: 2, name: 'Emerald Crown Armchair', category: 'Living Room', price: '$420', img: '/chair.jpg' },
-    { id: 3, name: 'Majestic King Bed', category: 'Bedroom', price: '$1,150', img: '/bedroom.jpg' },
-    { id: 4, name: 'Gold Accent Coffee Table', category: 'Living Room', price: '$280', img: '/hero.jpg' },
+    { id: 1, name: 'Royal Navy Velvet Sofa', category: 'Living Room', price: '₹75,000', img: '/sofa.jpg' },
+    { id: 2, name: 'Emerald Crown Armchair', category: 'Living Room', price: '₹35,000', img: '/chair.jpg' },
+    { id: 3, name: 'Majestic King Bed', category: 'Bedroom', price: '₹95,000', img: '/bedroom.jpg' },
+    { id: 4, name: 'Gold Accent Coffee Table', category: 'Living Room', price: '₹25,000', img: '/hero.jpg' },
   ];
 
   const filteredProducts = filter === 'All' 
